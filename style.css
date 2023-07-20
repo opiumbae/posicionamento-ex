@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+body{
+    background-color: #f7f7f7;
+    font-family: 'Inter', sans-serif;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+    margin-bottom: 40px;
+    margin: 0px;
+    
+}
+img{
+    max-width: 100%;
+}
+
+.titulo1{
+    font-size: 40px;
+    margin-top: 60px;
+}
+a{
+    text-decoration: none;
+}
+
+a, h1, h2, h3{
+    margin: 0px;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu a{
+    background: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: black;
+}
+.conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+.introducao{
+    background:white;
+    padding: 40px;
+    text-align: right;
+    display: grid;
+    align-content: center;
+    justify-items: end;
+}
+.butao{
+    background: red;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.subtitulo{
+    font-size: 65px;
+    color: #c6c6c6;
+    text-align: right;
+    padding: 40px;
+    align-self: center;
+}
+.vantagens{
+    background-color: white;
+    padding: 40px;
+}
+
+.vantagens-itens{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+
+.vantagens-itens p {
+    grid-column: 2;
+  
+    
+}
+.rodape{
+    background-color: #c6c6c6;
+    width: 100%;
+    padding: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
